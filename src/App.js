@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import TopBar from "./topbar/TopBar";
 
 function App() {
   return (
@@ -109,6 +110,10 @@ function App() {
           </p>
         </Container>
       </footer>
+      {/* react no bootstrap   */}
+      <Row></Row>
+      <TopBar />
+      <p>test</p>
     </div>
   );
 }
