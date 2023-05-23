@@ -11,11 +11,11 @@ const TopBar = () => {
       </div>
       <div className="topCenter">
         <ul className="topList">
-          <li className="toListItem">HOME</li>
-          <li className="toListItem">ABOUT</li>
-          <li className="toListItem">CONTACT</li>
-          <li className="toListItem">WRITE</li>
-          <li className="toListItem">LOGOUT</li>
+          <li className="topListItem">HOME</li>
+          <li className="topListItem">ABOUT</li>
+          <li className="topListItem">CONTACT</li>
+          <li className="topListItem">WRITE</li>
+          <li className="topListItem">LOGOUT</li>
         </ul>
       </div>
       <div className="topRight">
