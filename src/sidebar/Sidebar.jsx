@@ -5,7 +5,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebarItem">
-        <span className="sidebrTitle">ABOUT ME</span>
+        <span className="sidebarTitle">ABOUT ME</span>
         <img src="https://picsum.photos/700/300" alt="" />
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
@@ -17,7 +17,7 @@ const Sidebar = () => {
         </p>
       </div>
       <div className="sidebarItem">
-        <span className="sidebrTitle">CATEGORIES</span>
+        <span className="sidebarTitle">CATEGORIES</span>
         <ul className="sidebarList">
           <li className="sidebarListItem">Life</li>
           <li className="sidebarListItem">Music</li>
@@ -27,7 +27,12 @@ const Sidebar = () => {
         </ul>
       </div>
       <div className="sidebarItem">
-        <span className="sidebrTitle">FOLOW US</span>
+        <span className="sidebarTitle">FOLOW US</span>
+        <div className="sidebarSocial">
+          <i className="sidebarIcon fa-brands fa-square-facebook"></i>
+          <i className="sidebarIcon fa-brands fa-twitter"></i>
+          <i className="sidebarIcon fa-brands fa-square-instagram"></i>
+        </div>
       </div>
     </div>
   );
