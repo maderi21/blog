@@ -7,8 +7,8 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import TopBar from "./topbar/TopBar";
-import Home from "./pages/home/Home";
+import TopBar from "./components/topbar/TopBar";
+import Single from "./pages/home/single/Single";
 
 function App() {
   return (
@@ -114,7 +114,7 @@ function App() {
       {/* react no bootstrap   */}
       <Row></Row>
       <TopBar />
-      <Home />
+      <Single />
       <p>test</p>
     </div>
   );
