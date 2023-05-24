@@ -8,6 +8,7 @@ import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import TopBar from "./topbar/TopBar";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
@@ -113,6 +114,7 @@ function App() {
       {/* react no bootstrap   */}
       <Row></Row>
       <TopBar />
+      <Home />
       <p>test</p>
     </div>
   );
