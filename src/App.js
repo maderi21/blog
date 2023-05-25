@@ -11,6 +11,7 @@ import TopBar from "./components/topbar/TopBar";
 import Single from "./pages/home/single/Single";
 import Write from "./pages/home/write/Write";
 import Setting from "./pages/settings/Setting";
+import Login from "./pages/login/Login";
 
 function App() {
   return (
@@ -116,7 +117,7 @@ function App() {
       {/* react no bootstrap   */}
       <Row></Row>
       <TopBar />
-      <Setting />
+      <Login />
       <p>test</p>
     </div>
   );
