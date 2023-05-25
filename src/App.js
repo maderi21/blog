@@ -12,6 +12,7 @@ import Single from "./pages/home/single/Single";
 import Write from "./pages/home/write/Write";
 import Setting from "./pages/settings/Setting";
 import Login from "./pages/login/Login";
+import Register from "./pages/regitester/Register";
 
 function App() {
   return (
@@ -117,7 +118,7 @@ function App() {
       {/* react no bootstrap   */}
       <Row></Row>
       <TopBar />
-      <Login />
+      <Register />
       <p>test</p>
     </div>
   );
