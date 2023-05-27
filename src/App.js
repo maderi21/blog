@@ -8,8 +8,8 @@ import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import TopBar from "./components/topbar/TopBar";
-import Single from "./pages/home/single/Single";
-import Write from "./pages/home/write/Write";
+import Single from "./pages/single/Single";
+import Write from "./pages/write/Write";
 import Setting from "./pages/settings/Setting";
 import Login from "./pages/login/Login";
 import Register from "./pages/regitester/Register";
@@ -119,23 +119,19 @@ function App() {
         </Container>
       </footer>
 
-      {/* react no bootstrap   */}
+      {/* react no bootstrap  */}
       <Row></Row>
+      <TopBar />
       <Router>
-        <TopBar />
         <Routes>
-          <Route exact path="/" element={<Home />}></Route>
-          <Route
-            path="/register"
-            element={user ? <Home /> : <Register />}
-          ></Route>
-          <Route path="/single" element={<Single />}></Route>
-          <Route path="/login" element={<Login />}></Route>
-          <Route path="/setting" element={<Setting />}></Route>
-          <Route path="/write" element={<Write />}></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/register" element={user ? <Home /> : <Register />} />
+          <Route path="/post/:postId" element={<Single />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/setting" element={<Setting />} />
+          <Route path="/write" element={<Write />} />
         </Routes>
       </Router>
-      <p>test</p>
     </div>
   );
 }
