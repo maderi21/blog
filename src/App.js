@@ -13,8 +13,11 @@ import Write from "./pages/home/write/Write";
 import Setting from "./pages/settings/Setting";
 import Login from "./pages/login/Login";
 import Register from "./pages/regitester/Register";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/home/Home";
 
 function App() {
+  const user = false;
   return (
     <div>
       <Navbar bg="dark" variant="dark" expand="lg">
@@ -115,10 +118,23 @@ function App() {
           </p>
         </Container>
       </footer>
+
       {/* react no bootstrap   */}
       <Row></Row>
-      <TopBar />
-      <Register />
+      <Router>
+        <TopBar />
+        <Routes>
+          <Route exact path="/" element={<Home />}></Route>
+          <Route
+            path="/register"
+            element={user ? <Home /> : <Register />}
+          ></Route>
+          <Route path="/single" element={<Single />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/setting" element={<Setting />}></Route>
+          <Route path="/write" element={<Write />}></Route>
+        </Routes>
+      </Router>
       <p>test</p>
     </div>
   );
