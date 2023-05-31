@@ -7,20 +7,12 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import TopBar from "./components/topbar/TopBar";
-import Single from "./pages/single/Single";
-import Write from "./pages/write/Write";
-import Setting from "./pages/settings/Setting";
-import Login from "./pages/login/Login";
-import Register from "./pages/regitester/Register";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./pages/home/Home";
+import "./styles.css";
 
 function App() {
-  const user = false;
   return (
     <div>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar className="bg-primary">
         <Container>
           <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -118,20 +110,6 @@ function App() {
           </p>
         </Container>
       </footer>
-
-      {/* react no bootstrap  */}
-      <Row></Row>
-      <TopBar />
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/register" element={user ? <Home /> : <Register />} />
-          <Route path="/post/:postId" element={<Single />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/setting" element={<Setting />} />
-          <Route path="/write" element={<Write />} />
-        </Routes>
-      </Router>
     </div>
   );
 }
