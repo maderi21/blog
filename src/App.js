@@ -29,18 +29,18 @@ function App() {
 
         {/* header */}
         <Container>
-          <Row className="headerimg px-5 py-3" style={styles}>
+          <Row className="headerimg px-5 py-5" style={styles}>
             <Col sm={6} className="align-self-center">
-              <h1 className="font-weigh-light">
+              <h1 className="fw-bold text-primary d-flex justify-content-center">
                 Dive Into The Success of Kid Learning
               </h1>
-              <p className="mt-4">
+              <p className="mt-4 fw-light">
                 As network-as-a-service gains traction, enterprisesmust consider
                 their deployment models. See how SD-WAN, SASE, SDN and policy
                 management play a role in NaaS deployment. Watch Videos. See
                 Guides. Meet Our Editors.
               </p>
-              <Button variant="outline-primary">Click me Now</Button>
+              <Button variant="btn btn-danger ">Join With Us</Button>
             </Col>
             <Col sm={6}>
               <Image src={headerimg} className="container" />
