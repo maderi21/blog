@@ -9,6 +9,7 @@ import Card from "react-bootstrap/Card";
 import styles from "./styles.css";
 import headerimg from "./images/headerimg.png";
 import break1 from "./images/break1.png";
+import break2 from "./images/break2.png";
 
 function App() {
   return (
@@ -51,14 +52,32 @@ function App() {
               <img src={break1} className="img-fluid" />
             </Col>
           </Row>
+
+          {/* text field */}
           <Row>
-            <Card className="text-center bg-secondary text-white my-5 py-4">
-              <Card.Body>
-                See how SD-WAN, SASE, SDN and policy management play a role in
-                NaaS deployment. Watch Videos. See Guides. Meet Our Editors.
-              </Card.Body>
-            </Card>
+            <Col sm={6}>
+              <h1>
+                Education plays a vital role in shaping the future of our
+                children and society as a whole.{" "}
+              </h1>
+            </Col>
+            <Col sm={6}>
+              <p>
+                Fostering Social and Emotional Development: Education is not
+                solely about academics; it also plays a crucial role in shaping
+                children's character and values
+              </p>
+              <div>
+                <span></span>
+              </div>
+            </Col>
           </Row>
+          <Row>
+            <Col className="px-0">
+              <img src={break2} className="img-fluid" />
+            </Col>
+          </Row>
+
           <Row>
             <Col>
               <Card style={{ width: "18rem" }}>
