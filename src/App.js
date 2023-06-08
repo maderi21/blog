@@ -10,6 +10,8 @@ import styles from "./styles.css";
 import headerimg from "./images/headerimg.png";
 import break1 from "./images/break1.png";
 import break2 from "./images/break2.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
@@ -67,9 +69,35 @@ function App() {
                 solely about academics; it also plays a crucial role in shaping
                 children's character and values
               </p>
-              <div>
-                <span></span>
-              </div>
+              <Col sm={1}>
+                <div className="d-flex justify-content-space-between">
+                  <FontAwesomeIcon
+                    className="text-primary"
+                    icon={faSquareCheck}
+                  />
+                  <p>Building Fundation</p>
+                  <FontAwesomeIcon
+                    className="text-primary"
+                    icon={faSquareCheck}
+                  />
+                  <p>Promoting Health</p>
+                </div>
+              </Col>
+              <Col sm={1}>
+                <div className="d-flex justify-content-space-between">
+                  <p>Promoting Health</p>
+                  <FontAwesomeIcon
+                    className="text-primary"
+                    icon={faSquareCheck}
+                  />
+                  <p>Nurturing thinking</p>
+                  <FontAwesomeIcon
+                    className="text-primary"
+                    icon={faSquareCheck}
+                  />
+                  <p>Changing world</p>
+                </div>
+              </Col>
             </Col>
           </Row>
           <Row>
