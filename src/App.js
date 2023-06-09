@@ -12,6 +12,12 @@ import break1 from "./images/break1.png";
 import break2 from "./images/break2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
+import blog1 from "./images/blog1.jpg";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import blog2 from "./images/blog2.jpg";
+import blog3 from "./images/blog3.jpg";
+import blog4 from "./images/blog4.jpg";
+import blog5 from "./images/blog5.jpg";
 
 function App() {
   return (
@@ -57,20 +63,23 @@ function App() {
 
           {/* text field */}
           <Row>
-            <Col sm={6}>
+            <Col sm={6} className="align-items-center">
               <h1>
                 Education plays a vital role in shaping the future of our
                 children and society as a whole.{" "}
               </h1>
             </Col>
-            <Col sm={6}>
+            <Col
+              sm={6}
+              className="d-flex justify-content-center align-items-center"
+            >
               <p>
                 Fostering Social and Emotional Development: Education is not
                 solely about academics; it also plays a crucial role in shaping
                 children's character and values
               </p>
-              <Col sm={1}>
-                <div className="d-flex justify-content-space-between">
+              <Col sm={3}>
+                <div className="d-flex justify-content-space-between px-5 mx-5">
                   <FontAwesomeIcon
                     className="text-primary"
                     icon={faSquareCheck}
@@ -83,9 +92,8 @@ function App() {
                   <p>Promoting Health</p>
                 </div>
               </Col>
-              <Col sm={1}>
-                <div className="d-flex justify-content-space-between">
-                  <p>Promoting Health</p>
+              <Col sm={3}>
+                <div className="d-flex justify-content-space-between px-5 mx-5">
                   <FontAwesomeIcon
                     className="text-primary"
                     icon={faSquareCheck}
@@ -106,10 +114,31 @@ function App() {
             </Col>
           </Row>
 
+          {/* Recent block posts */}
           <Row>
-            <Col>
+            <Col sm={8}>
+              <p>Recent blog posts</p>
+              <Card>
+                <Card.Img variant="top" src={blog1} />
+                <Card.Body>
+                  <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
+                  <Card.Title className="text-primary">
+                    Education is not solely about academics
+                  </Card.Title>
+                  <Card.Text>
+                    It also plays a crucial role in shaping children's character
+                    and values. In educational settings, children learn to
+                    interact with peers, collaborate, empathize, and resolve
+                    conflicts.
+                  </Card.Text>
+                  <Card.Link>Read more</Card.Link>
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col sm={4}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="https://picsum.photos/200/300" />
+                <Card.Img variant="top" src={blog2} />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Text>
@@ -122,7 +151,7 @@ function App() {
             </Col>
             <Col>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="https://picsum.photos/200/300" />
+                <Card.Img variant="top" src={blog3} />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Text>
@@ -132,10 +161,8 @@ function App() {
                   <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
-            </Col>
-            <Col>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="https://picsum.photos/200/300" />
+                <Card.Img variant="top" src={blog4} />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Text>
