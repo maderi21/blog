@@ -18,6 +18,7 @@ import blog2 from "./images/blog2.jpg";
 import blog3 from "./images/blog3.jpg";
 import blog4 from "./images/blog4.jpg";
 import blog5 from "./images/blog5.jpg";
+import Form from "react-bootstrap/Form";
 
 function App() {
   return (
@@ -115,7 +116,7 @@ function App() {
           </Row>
 
           {/* Recent block posts */}
-          <Row>
+          <Row className="bg-danger">
             <Col sm={8}>
               <p>Recent blog posts</p>
               <Card>
@@ -137,7 +138,7 @@ function App() {
               </Card>
             </Col>
             <Col sm={4}>
-              <Card style={{ width: "18rem" }}>
+              <Card style={{ width: "10rem" }}>
                 <Card.Img variant="top" src={blog2} />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -150,7 +151,7 @@ function App() {
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: "18rem" }}>
+              <Card style={{ width: "10rem" }}>
                 <Card.Img variant="top" src={blog3} />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -161,7 +162,7 @@ function App() {
                   <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "18rem" }}>
+              <Card style={{ width: "10rem" }}>
                 <Card.Img variant="top" src={blog4} />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -174,12 +175,127 @@ function App() {
               </Card>
             </Col>
           </Row>
+
+          {/* blog posts */}
+          <Row>
+            <Col className="px-0">
+              <img src={break1} className="img-fluid" />
+            </Col>
+          </Row>
+          <Row className="d-flex align-items-center justify-content-center">
+            <Card style={{ width: "18rem" }} className="d-flex">
+              <Card.Img variant="top" src={blog3} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={blog3} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={blog3} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={blog3} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={blog3} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={blog3} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={blog3} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={blog3} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </Row>
+
+          {/* NewsLetter */}
+          <Row>
+            <Col className="px-0">
+              <img src={break2} className="img-fluid" />
+            </Col>
+          </Row>
+          <Row className="bg-danger">
+            <Col sm={6}>
+              <h3>Sign up to our NewsLetter</h3>
+              <p>
+                Stay up tp date with the latest news, annoucements, and articles
+              </p>
+            </Col>
+            <Col sm={6}>
+              <Form></Form>
+            </Col>
+          </Row>
         </Container>
-        <footer class="py-5 my-5 bg-dark">
-          <Container className="px-4">
-            <p className="text-center text-white">
-              Copyright &copy; Your website 2023
-            </p>
+
+        {/* Footer */}
+        <footer class="bg-primary container">
+          <Container className="text-white">
+            <h1>kiddos</h1>
           </Container>
         </footer>
       </div>
