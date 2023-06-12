@@ -17,8 +17,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import blog2 from "./images/blog2.jpg";
 import blog3 from "./images/blog3.jpg";
 import blog4 from "./images/blog4.jpg";
-import blog5 from "./images/blog5.jpg";
 import Form from "react-bootstrap/Form";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -26,13 +26,19 @@ function App() {
       <div className="bg-secondary">
         <Navbar className="bg-primary container">
           <Container>
-            <Navbar.Brand href="#home" className="text-white">
-              kiddos
+            <Navbar.Brand href="#home" className="text-white py-0">
+              <p className="fs-3 px-5 fw-bold">kiddos</p>
             </Navbar.Brand>
-            <Nav className="me-auto">
-              <Nav.Link href="#home">About</Nav.Link>
-              <Nav.Link href="#write">Write</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav className="mx-auto">
+              <Nav.Link href="#home" className="text-white">
+                Write
+              </Nav.Link>
+              <Nav.Link href="#write" className="text-white">
+                Contact
+              </Nav.Link>
+              <Nav.Link href="#contact" className="text-white">
+                About
+              </Nav.Link>
             </Nav>
           </Container>
         </Navbar>
