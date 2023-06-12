@@ -56,7 +56,9 @@ function App() {
                 management play a role in NaaS deployment. Watch Videos. See
                 Guides. Meet Our Editors.
               </p>
-              <Button variant="btn btn-danger ">Join With Us</Button>
+              <Button variant="btn btn-info rounded-pill text-white px-3 ">
+                Join With Us
+              </Button>
             </Col>
             <Col sm={6}>
               <Image src={headerimg} className="container" />
