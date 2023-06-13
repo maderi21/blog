@@ -15,37 +15,64 @@ import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
 import blog1 from "./images/blog1.jpg";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import blog2 from "./images/blog2.jpg";
-import blog3 from "./images/blog3.jpg";
-import blog4 from "./images/blog4.jpg";
 import Form from "react-bootstrap/Form";
 import "bootstrap/dist/css/bootstrap.min.css";
+import login from "./images/login.jpg";
+import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
     <>
       <div className="bg-secondary">
-        <Navbar className="bg-primary container">
-          <Container>
-            <Navbar.Brand href="#home" className="text-white py-0">
-              <p className="fs-3 px-5 fw-bold">kiddos</p>
-            </Navbar.Brand>
-            <Nav className="mx-auto">
-              <Nav.Link href="#home" className="text-white">
-                Write
-              </Nav.Link>
-              <Nav.Link href="#write" className="text-white">
-                Contact
-              </Nav.Link>
-              <Nav.Link href="#contact" className="text-white">
-                About
-              </Nav.Link>
-            </Nav>
-          </Container>
-        </Navbar>
+        <nav className="navbar navbar-expand-lg bg-primary fixed-top">
+          <div className="container">
+            <a className="navbar-brand text-white container-fluid" href="#">
+              kiddos
+            </a>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <a className="nav-link text-white" href="#">
+                    About
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-white" href="#">
+                    Write
+                  </a>
+                </li>
+              </ul>
+              <div>
+                <img
+                  className="rounded-circle mx-3"
+                  src={login}
+                  alt="login"
+                  width="50"
+                  height="50"
+                />
+              </div>
+              <FontAwesomeIcon
+                className="text-white"
+                icon={faRightFromBracket}
+              />
+            </div>
+          </div>
+        </nav>
 
         {/* header */}
         <Container>
-          <Row className="headerimg px-5 py-5" style={styles}>
+          <Row className="headerimg px-5 py-5 mt-5" style={styles}>
             <Col sm={6} className="align-self-center">
               <p className="fw-bold text-primary display-3">
                 Dive Into The Success of Kid Learning
