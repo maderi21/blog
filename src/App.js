@@ -243,93 +243,161 @@ function App() {
               <img src={break1} className="img-fluid" />
             </Col>
           </Row>
-          <Row className="d-flex align-items-center justify-content-center">
-            <Card style={{ width: "18rem" }} className="d-flex">
-              <Card.Img variant="top" src={blog3} />
+          <p className="text-primary fw-bold">Blog posts</p>
+          <Row
+            md={4}
+            className="d-flex align-items-center justify-content-center"
+          >
+            <Card className="border-0 bg-secondary ">
+              <Card.Img variant="top" src={blog1} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
+                <Card.Title className="text-primary fw-bold">
+                  Education is not solely about academics
+                </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  It also plays a crucial role in shaping children's character
+                  and values. In educational settings, children learn to
+                  interact with peers, collaborate, empathize, and resolve
+                  conflicts.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Link className="text-decoration-none">
+                  Read more
+                </Card.Link>
+                <FontAwesomeIcon className="px-2" icon={faArrowRight} />
               </Card.Body>
             </Card>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={blog3} />
+            <Card className="border-0 bg-secondary ">
+              <Card.Img variant="top" src={blog1} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
+                <Card.Title className="text-primary fw-bold">
+                  Education is not solely about academics
+                </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  It also plays a crucial role in shaping children's character
+                  and values. In educational settings, children learn to
+                  interact with peers, collaborate, empathize, and resolve
+                  conflicts.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Link className="text-decoration-none">
+                  Read more
+                </Card.Link>
+                <FontAwesomeIcon className="px-2" icon={faArrowRight} />
               </Card.Body>
             </Card>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={blog3} />
+            <Card className="border-0 bg-secondary ">
+              <Card.Img variant="top" src={blog1} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
+                <Card.Title className="text-primary fw-bold">
+                  Education is not solely about academics
+                </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  It also plays a crucial role in shaping children's character
+                  and values. In educational settings, children learn to
+                  interact with peers, collaborate, empathize, and resolve
+                  conflicts.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Link className="text-decoration-none">
+                  Read more
+                </Card.Link>
+                <FontAwesomeIcon className="px-2" icon={faArrowRight} />
               </Card.Body>
             </Card>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={blog3} />
+            <Card className="border-0 bg-secondary ">
+              <Card.Img variant="top" src={blog1} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
+                <Card.Title className="text-primary fw-bold">
+                  Education is not solely about academics
+                </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  It also plays a crucial role in shaping children's character
+                  and values. In educational settings, children learn to
+                  interact with peers, collaborate, empathize, and resolve
+                  conflicts.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Link className="text-decoration-none">
+                  Read more
+                </Card.Link>
+                <FontAwesomeIcon className="px-2" icon={faArrowRight} />
               </Card.Body>
             </Card>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={blog3} />
+            <Card className="border-0 bg-secondary ">
+              <Card.Img variant="top" src={blog1} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
+                <Card.Title className="text-primary fw-bold">
+                  Education is not solely about academics
+                </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  It also plays a crucial role in shaping children's character
+                  and values. In educational settings, children learn to
+                  interact with peers, collaborate, empathize, and resolve
+                  conflicts.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Link className="text-decoration-none">
+                  Read more
+                </Card.Link>
+                <FontAwesomeIcon className="px-2" icon={faArrowRight} />
               </Card.Body>
             </Card>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={blog3} />
+            <Card className="border-0 bg-secondary ">
+              <Card.Img variant="top" src={blog1} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
+                <Card.Title className="text-primary fw-bold">
+                  Education is not solely about academics
+                </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  It also plays a crucial role in shaping children's character
+                  and values. In educational settings, children learn to
+                  interact with peers, collaborate, empathize, and resolve
+                  conflicts.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Link className="text-decoration-none">
+                  Read more
+                </Card.Link>
+                <FontAwesomeIcon className="px-2" icon={faArrowRight} />
               </Card.Body>
             </Card>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={blog3} />
+            <Card className="border-0 bg-secondary ">
+              <Card.Img variant="top" src={blog1} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
+                <Card.Title className="text-primary fw-bold">
+                  Education is not solely about academics
+                </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  It also plays a crucial role in shaping children's character
+                  and values. In educational settings, children learn to
+                  interact with peers, collaborate, empathize, and resolve
+                  conflicts.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Link className="text-decoration-none">
+                  Read more
+                </Card.Link>
+                <FontAwesomeIcon className="px-2" icon={faArrowRight} />
               </Card.Body>
             </Card>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={blog3} />
+            <Card className="border-0 bg-secondary ">
+              <Card.Img variant="top" src={blog1} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
+                <Card.Title className="text-primary fw-bold">
+                  Education is not solely about academics
+                </Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  It also plays a crucial role in shaping children's character
+                  and values. In educational settings, children learn to
+                  interact with peers, collaborate, empathize, and resolve
+                  conflicts.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Link className="text-decoration-none">
+                  Read more
+                </Card.Link>
+                <FontAwesomeIcon className="px-2" icon={faArrowRight} />
               </Card.Body>
             </Card>
           </Row>
