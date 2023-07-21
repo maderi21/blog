@@ -5,7 +5,7 @@ import Text from "./components/Text";
 import Recent from "./components/Recent";
 import Signin from "./components/Signin";
 import Footer from "./components/Footer";
-import About from "./pages/About";
+import Write from "./pages/Write";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Recent />
         <Signin />
         <Footer />
-        <About />
+        <Write />
       </div>
     </>
   );
