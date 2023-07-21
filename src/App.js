@@ -5,7 +5,7 @@ import Text from "./components/Text";
 import Recent from "./components/Recent";
 import Signin from "./components/Signin";
 import Footer from "./components/Footer";
-import Settings from "./pages/Settings";
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Recent />
         <Signin />
         <Footer />
-        <Settings />
+        <Register />
       </div>
     </>
   );
