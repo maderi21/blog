@@ -13,7 +13,7 @@ const Blog = () => {
             <img src={break1} className="img-fluid" />
           </Col>
         </Row>
-        <p className="text-primary fw-bold">Blog posts</p>
+        <p className="text-primary fw-bold mt-5">Blog posts</p>
         <Row
           md={4}
           className="d-flex align-items-center justify-content-center"

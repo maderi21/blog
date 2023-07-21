@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <Container>
       <img src="./images/headerback.png" alt="Image" />
-      <Row className="headerimg px-5 py-5 mt-5" style={styles}>
-        <Col sm={6} className="align-self-center">
+      <Row className="headerimg px-5 py-5" style={styles}>
+        <Col sm={6} className="align-self-center p-5">
           <p className="fw-bold text-primary display-3">
             Dive Into The Success of Kid Learning
           </p>
@@ -24,12 +24,12 @@ const Header = () => {
           </Button>
         </Col>
         <Col sm={6}>
-          <Image src={headerimg} className="container" />
+          <Image src={headerimg} className="container p-5" />
         </Col>
       </Row>
       <Row>
         <Col className="px-0">
-          <img src={break1} className="img-fluid" />
+          <img src={break1} className="img-fluid p-0" />
         </Col>
       </Row>
     </Container>
