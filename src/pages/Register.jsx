@@ -7,7 +7,7 @@ const Register = () => {
         <div className="container mb-5">
           <div className="row">
             <div className="text-center py-4 my-4">
-              <h1>Register</h1>
+              <h1 className="bg-danger">Register</h1>
             </div>
           </div>
           <div className="row d-flex justify-content-center">

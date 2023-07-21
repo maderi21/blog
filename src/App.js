@@ -5,7 +5,8 @@ import Text from "./components/Text";
 import Recent from "./components/Recent";
 import Signin from "./components/Signin";
 import Footer from "./components/Footer";
-import Register from "./pages/Register";
+import Blog from "./pages/Blog";
+import SinglePost from "./pages/SinglePost";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <Recent />
         <Signin />
         <Footer />
-        <Register />
+
+        <SinglePost />
       </div>
     </>
   );

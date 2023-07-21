@@ -1,6 +1,5 @@
 import { Row, Col, Card, Container } from "react-bootstrap";
 import blog1 from "../images/blog1.jpg";
-import break1 from "../images/break1.png";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -8,17 +7,12 @@ const Blog = () => {
   return (
     <>
       <Container>
-        <Row>
-          <Col className="px-0">
-            <img src={break1} className="img-fluid" />
-          </Col>
-        </Row>
         <p className="text-primary fw-bold mt-5">Blog posts</p>
         <Row
           md={4}
           className="d-flex align-items-center justify-content-center"
         >
-          <Card className="border-0 bg-secondary ">
+          <Card className="border-0 bg-secondary mb-5 ">
             <Card.Img variant="top" src={blog1} />
             <Card.Body>
               <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
@@ -34,7 +28,7 @@ const Blog = () => {
               <FontAwesomeIcon className="px-2" icon={faArrowRight} />
             </Card.Body>
           </Card>
-          <Card className="border-0 bg-secondary ">
+          <Card className="border-0 bg-secondary mb-5">
             <Card.Img variant="top" src={blog1} />
             <Card.Body>
               <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
@@ -50,7 +44,7 @@ const Blog = () => {
               <FontAwesomeIcon className="px-2" icon={faArrowRight} />
             </Card.Body>
           </Card>
-          <Card className="border-0 bg-secondary ">
+          <Card className="border-0 bg-secondary mb-5 ">
             <Card.Img variant="top" src={blog1} />
             <Card.Body>
               <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
@@ -66,7 +60,7 @@ const Blog = () => {
               <FontAwesomeIcon className="px-2" icon={faArrowRight} />
             </Card.Body>
           </Card>
-          <Card className="border-0 bg-secondary ">
+          <Card className="border-0 bg-secondary mb-5">
             <Card.Img variant="top" src={blog1} />
             <Card.Body>
               <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
@@ -82,7 +76,7 @@ const Blog = () => {
               <FontAwesomeIcon className="px-2" icon={faArrowRight} />
             </Card.Body>
           </Card>
-          <Card className="border-0 bg-secondary ">
+          <Card className="border-0 bg-secondary mb-5">
             <Card.Img variant="top" src={blog1} />
             <Card.Body>
               <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
@@ -98,7 +92,7 @@ const Blog = () => {
               <FontAwesomeIcon className="px-2" icon={faArrowRight} />
             </Card.Body>
           </Card>
-          <Card className="border-0 bg-secondary ">
+          <Card className="border-0 bg-secondary mb-5">
             <Card.Img variant="top" src={blog1} />
             <Card.Body>
               <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
@@ -114,7 +108,7 @@ const Blog = () => {
               <FontAwesomeIcon className="px-2" icon={faArrowRight} />
             </Card.Body>
           </Card>
-          <Card className="border-0 bg-secondary ">
+          <Card className="border-0 bg-secondary mb-5">
             <Card.Img variant="top" src={blog1} />
             <Card.Body>
               <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>
@@ -130,7 +124,7 @@ const Blog = () => {
               <FontAwesomeIcon className="px-2" icon={faArrowRight} />
             </Card.Body>
           </Card>
-          <Card className="border-0 bg-secondary ">
+          <Card className="border-0 bg-secondary mb-5">
             <Card.Img variant="top" src={blog1} />
             <Card.Body>
               <Card.Text>Marek Kostolansky/20 Jan 2024</Card.Text>

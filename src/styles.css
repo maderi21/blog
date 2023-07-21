@@ -6,3 +6,8 @@
   background-image: url("./images/headerback.png");
   width: auto;
 }
+.post {
+  max-height: 300px;
+  width: 1200px;
+  object-fit: cover;
+}
