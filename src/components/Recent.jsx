@@ -9,7 +9,7 @@ const Recent = () => {
     <Container>
       <Row className="bg-danger">
         <Col sm={7} className="px-5">
-          <p className="text-primary fw-bold">Recent blog posts</p>
+          <p className="text-primary fw-bold mt-5">Recent blog posts</p>
           <Card className="border-0">
             <Card.Img variant="top" src={blog1} />
             <Card.Body className="bg-danger">

@@ -1,15 +1,15 @@
 import { Col, Row, Container, Button, Form } from "react-bootstrap";
-import break2 from "../images/break2.png";
+import break1 from "../images/break1.png";
 
 const Signin = () => {
   return (
     <Container>
       <Row>
         <Col className="px-0">
-          <img src={break2} className="img-fluid" />
+          <img src={break1} className="img-fluid" />
         </Col>
       </Row>
-      <Row className="bg-danger py-5">
+      <Row className=" py-5">
         <Col sm={6}>
           <h3 className="mx-5 mt-3">Sign up to our NewsLetter</h3>
           <p className="mx-5">
