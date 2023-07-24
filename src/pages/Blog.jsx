@@ -2,12 +2,13 @@ import { Row, Col, Card, Container } from "react-bootstrap";
 import blog1 from "../images/blog1.jpg";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Footer from "../components/Footer";
 
 const Blog = () => {
   return (
     <>
-      <Container>
-        <p className="text-primary fw-bold mt-5">Blog posts</p>
+      <Container className="mt-5 pt-5">
+        <p className="text-primary fw-bold">Blog posts</p>
         <Row
           md={4}
           className="d-flex align-items-center justify-content-center"
@@ -142,6 +143,7 @@ const Blog = () => {
           </Card>
         </Row>
       </Container>
+      <Footer />
     </>
   );
 };

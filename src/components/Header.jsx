@@ -19,17 +19,23 @@ const Header = () => {
             management play a role in NaaS deployment. Watch Videos. See Guides.
             Meet Our Editors.
           </p>
-          <Button variant="btn btn-info rounded-pill text-white px-3 ">
-            Join With Us
-          </Button>
+
+          <button
+            type="button"
+            className="btn btn-outline-none px-3 text-white bg-info"
+            data-bs-toggle="modal"
+            data-bs-target="#signupModal"
+          >
+            Join Us
+          </button>
         </Col>
         <Col sm={6}>
           <Image src={headerimg} className="container p-5" />
         </Col>
       </Row>
       <Row>
-        <Col className="px-0">
-          <img src={break1} className="img-fluid p-0" />
+        <Col className="px-0 m-0">
+          <img src={break1} className="img-fluid" />
         </Col>
       </Row>
     </Container>

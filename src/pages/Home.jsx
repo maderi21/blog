@@ -6,13 +6,15 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div className="container">
-      <Header />
-      <Text />
-      <Recent />
-      <Signin />
+    <>
+      <div className="container">
+        <Header />
+        <Text />
+        <Recent />
+        <Signin />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
