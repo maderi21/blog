@@ -6,7 +6,7 @@ import break2 from "../images/break2.png";
 const Text = () => {
   return (
     <>
-      <Container>
+      <Container className="pt-0 mt-0">
         <Row className="py-5">
           <Col sm={6}>
             <h1 className="mt-4 mx-5 text-primary fs-2 fw-bold">

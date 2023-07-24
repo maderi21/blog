@@ -10,6 +10,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Join from "./components/buttons/Join";
 import SinglePost from "./pages/SinglePost";
+import Terms from "./pages/Terms";
 
 function App() {
   const user = true;
@@ -29,6 +30,7 @@ function App() {
           />
           <Route path="/register" element={user ? <Home /> : <Register />} />
           <Route path="/post" element={<SinglePost />} />
+          <Route path="/terms" element={<Terms />} />
         </Routes>
         <Join />
       </div>

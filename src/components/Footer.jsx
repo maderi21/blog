@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-primary pt-5">
@@ -21,19 +23,25 @@ const Footer = () => {
             <h5 className="text-uppercase mb-4 fw-bold text-white">legal</h5>
             <hr className="mb-4" />
             <p className="text-white">
-              <a href="#" className="text-white text-decoration-none">
-                Terms & Conditions
-              </a>
+              <Link
+                className="text-white text-decoration-none"
+                to="/terms"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Terms and Conditions
+              </Link>
             </p>
+
             <p className="text-white">
-              <a href="#" className="text-white text-decoration-none">
-                Cookies
-              </a>
-            </p>
-            <p className="text-white">
-              <a href="#" className="text-white text-decoration-none">
+              <Link
+                className="text-white text-decoration-none"
+                to="/terms"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Privacy
-              </a>
+              </Link>
             </p>
           </div>
           <hr className="mb-4" />

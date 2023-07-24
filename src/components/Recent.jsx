@@ -35,13 +35,13 @@ const Recent = () => {
           </Card>
         </Col>
         <Col sm={5} className="mt-5">
-          <div className="card bg-danger border-0 mb-5">
+          <div className="card bg-danger border-0 mb-3">
             <div className="row g-0">
               <div className="col-md-4">
                 <img
                   variant="top"
                   src={two}
-                  className="img-fluid"
+                  className="img-fluid pt-3"
                   alt="blog1"
                 />
               </div>
@@ -62,10 +62,10 @@ const Recent = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-danger border-0 mb-5">
+          <div className="card bg-danger border-0 mb-3">
             <div className="row g-0">
               <div className="col-md-4">
-                <img src={three} className="img-fluid" alt="blogpost1" />
+                <img src={three} className="img-fluid pt-3" alt="blogpost1" />
               </div>
               <div className="col-md-8">
                 <div className="card-body">
@@ -84,10 +84,10 @@ const Recent = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-danger border-0 mb-5">
+          <div className="card bg-danger border-0 mb-3">
             <div className="row g-0">
               <div className="col-md-4">
-                <img src={four} className="img-fluid" alt="blogpost1" />
+                <img src={four} className="img-fluid pt-3" alt="blogpost1" />
               </div>
               <div className="col-md-8">
                 <div className="card-body">
@@ -109,10 +109,10 @@ const Recent = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-danger border-0 mb-5">
+          <div className="card bg-danger border-0 mb-3">
             <div className="row g-0">
               <div className="col-md-4">
-                <img src={five} className="img-fluid" alt="blogpost1" />
+                <img src={five} className="img-fluid pt-3" alt="blogpost1" />
               </div>
               <div className="col-md-8">
                 <div className="card-body">

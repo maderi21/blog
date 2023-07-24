@@ -7,10 +7,9 @@ import break1 from "../images/break1.png";
 const Header = () => {
   return (
     <Container>
-      <img src="./images/headerback.png" alt="Image" />
-      <Row className="headerimg px-5 py-5" style={styles}>
+      <Row className="bg-danger pt-5 pt-5" style={styles}>
         <Col sm={6} className="align-self-center p-5">
-          <p className="fw-bold text-primary display-3">
+          <p className="fw-bold text-primary display-3 p-4">
             Dive Into The Success of Kid Learning
           </p>
           <p className="mt-1 fw-light">
@@ -34,7 +33,7 @@ const Header = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="px-0 m-0">
+        <Col className="p-0 m-0">
           <img src={break1} className="img-fluid" />
         </Col>
       </Row>
