@@ -6,7 +6,7 @@ const Signin = () => {
     <Container className="text-center">
       <Row>
         <Col className="px-0 bg-danger">
-          <img src={break1} className="img-fluid" />
+          <img src={break1} className="img-fluid bg-secondary" />
         </Col>
       </Row>
       <Row className="py-5 ">

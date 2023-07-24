@@ -34,7 +34,7 @@ const Header = () => {
       </Row>
       <Row>
         <Col className="px-0 bg-danger">
-          <img src={break1} className="img-fluid mt-0" />
+          <img src={break1} className="img-fluid mt-0 bg-secondary" />
         </Col>
       </Row>
     </Container>
