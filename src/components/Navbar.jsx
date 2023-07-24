@@ -12,7 +12,7 @@ const Navbar = () => {
             exact
             to="/"
           >
-            kiddos
+            Kiddos
           </Link>
           <div className="order-lg-2 nav-btns d-flex ">
             <button

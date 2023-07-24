@@ -1,11 +1,11 @@
 import { Col, Row, Container } from "react-bootstrap";
-import break1 from "../images/break1.png";
+import break1 from "../images/break.png";
 
 const Signin = () => {
   return (
     <Container className="text-center">
       <Row>
-        <Col className="px-0">
+        <Col className="px-0 bg-danger">
           <img src={break1} className="img-fluid" />
         </Col>
       </Row>

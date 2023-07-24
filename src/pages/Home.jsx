@@ -9,7 +9,6 @@ const Home = () => {
     <>
       <div className="container">
         <Header />
-
         <Text />
         <Recent />
         <Signin />
