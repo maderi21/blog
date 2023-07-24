@@ -6,7 +6,7 @@ const Login = () => {
       <div className="d-flex justify-content-center ">
         <div className="container mb-5">
           <div className="row">
-            <div className="text-center py-4 my-4">
+            <div className="text-center my-4 bg-danger">
               <h1>Login</h1>
             </div>
           </div>

@@ -7,7 +7,9 @@ const SinglePost = () => {
     <>
       <div className="container mt-5">
         <img src={blog1} className="post rounded img-fluid" />
-        <h2 className="my-3">Education is not solely about academics</h2>
+        <h2 className="my-3 bg-danger">
+          Education is not solely about academics
+        </h2>
         <div className="d-flex text-primary">
           <span className="text-dark">Author:</span>
           <p className="mx-2">Marek Kostolansky</p>

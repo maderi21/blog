@@ -1,15 +1,19 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 import login from "../images/login.jpg";
 
 const Navbar = () => {
+  const user = true;
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-primary fixed-top">
         <div className="container">
-          <a className="navbar-brand text-white container-fluid" href="#">
+          <Link
+            className="navbar-brand text-white container-fluid"
+            exact
+            to="/"
+          >
             kiddos
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -24,14 +28,14 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <Link className="nav-link text-white" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <Link className="nav-link text-white" to="/write">
                   Write
-                </a>
+                </Link>
               </li>
             </ul>
             <div>
@@ -43,8 +47,11 @@ const Navbar = () => {
                 height="50"
               />
             </div>
-            <span className="text-white mx-3">Logout</span>
-            <FontAwesomeIcon className="text-white" icon={faRightFromBracket} />
+            <ul className="navbar-nav">
+              <li className=" btn btn-none text-white mx-1">
+                {user && "Logout"}
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
