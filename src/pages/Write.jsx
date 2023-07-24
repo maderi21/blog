@@ -48,7 +48,7 @@ const Write = () => {
                       placeholder="Tell Us Yourour Story..."
                     ></textarea>
                   </div>
-                  <button type="submit" className="btn btn-outline-dark">
+                  <button type="submit" className="btn btn-info">
                     Publish
                   </button>
                 </form>

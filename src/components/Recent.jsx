@@ -1,8 +1,12 @@
 import { Row, Col, Card, Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import blog2 from "../images/blog2.jpg";
-import blog1 from "../images/blog1.jpg";
+import one from "../images/1.jpg";
+import two from "../images/2.jpg";
+import three from "../images/3.jpg";
+import four from "../images/4.jpg";
+import five from "../images/5.jpg";
+import { Link } from "react-router-dom";
 
 const Recent = () => {
   return (
@@ -11,18 +15,21 @@ const Recent = () => {
         <Col sm={7} className="px-5">
           <p className="text-primary fw-bold mt-5">Recent blog posts</p>
           <Card className="border-0">
-            <Card.Img variant="top" src={blog1} />
+            <Card.Img src={one} className="img-fluid" />
             <Card.Body className="bg-danger">
-              <Card.Text className="">Marek Kostolansky/20 Jan 2024</Card.Text>
+              <Card.Text className="">Marek Kostolansky/20 Jan 2023</Card.Text>
               <Card.Title className="text-primary fw-bold">
-                Education is not solely about academics
+                Fun and Engaging Learning Activities: Igniting the Spark of
+                Education for Kids!
               </Card.Title>
               <Card.Text>
                 It also plays a crucial role in shaping children's character and
                 values. In educational settings, children learn to interact with
                 peers, collaborate, empathize, and resolve conflicts.
               </Card.Text>
-              <Card.Link className="text-decoration-none">Read more</Card.Link>
+              <Link className="text-decoration-none" to="/post">
+                Read more
+              </Link>
               <FontAwesomeIcon className="px-2" icon={faArrowRight} />
             </Card.Body>
           </Card>
@@ -31,19 +38,25 @@ const Recent = () => {
           <div className="card bg-danger border-0 mb-5">
             <div className="row g-0">
               <div className="col-md-4">
-                <img src={blog2} className="img-fluid" alt="blog1" />
+                <img
+                  variant="top"
+                  src={two}
+                  className="img-fluid"
+                  alt="blog1"
+                />
               </div>
               <div className="col-md-8">
                 <div className="card-body">
                   <small className="card-title text-muted">
-                    Marek Kostolansky/20 Jan 2024
+                    Peter Pan/23 Jan 2023
                   </small>
                   <p className="card-text text-primary fw-bold">
-                    Education is not solely about academics
+                    The Power of Play: How Play-based Learning Enhances
+                    Education for Children
                   </p>
-                  <Card.Link className="text-decoration-none">
+                  <Link className="text-decoration-none" to="/post">
                     Read more
-                  </Card.Link>
+                  </Link>
                   <FontAwesomeIcon className="px-2" icon={faArrowRight} />
                 </div>
               </div>
@@ -52,19 +65,20 @@ const Recent = () => {
           <div className="card bg-danger border-0 mb-5">
             <div className="row g-0">
               <div className="col-md-4">
-                <img src={blog2} className="img-fluid" alt="blog1" />
+                <img src={three} className="img-fluid" alt="blogpost1" />
               </div>
               <div className="col-md-8">
                 <div className="card-body">
                   <small className="card-title text-muted">
-                    Marek Kostolansky/20 Jan 2024
+                    John Doe/25 Jan 2023
                   </small>
                   <p className="card-text text-primary fw-bold">
-                    Education is not solely about academics
+                    Unlocking Creativity: Nurturing Imagination in Kids'
+                    Educational Journey
                   </p>
-                  <Card.Link className="text-decoration-none">
+                  <Link className="text-decoration-none" to="/post">
                     Read more
-                  </Card.Link>
+                  </Link>
                   <FontAwesomeIcon className="px-2" icon={faArrowRight} />
                 </div>
               </div>
@@ -73,19 +87,20 @@ const Recent = () => {
           <div className="card bg-danger border-0 mb-5">
             <div className="row g-0">
               <div className="col-md-4">
-                <img src={blog2} className="img-fluid" alt="blog1" />
+                <img src={four} className="img-fluid" alt="blogpost1" />
               </div>
               <div className="col-md-8">
                 <div className="card-body">
                   <small className="card-title text-muted">
-                    Marek Kostolansky/20 Jan 2024
+                    Peter Pan/12 Feb 2023
                   </small>
                   <p className="card-text text-primary fw-bold">
-                    Education is not solely about academics
+                    Building a Strong Foundation: The Importance of Early
+                    Childhood Education
                   </p>
-                  <Card.Link className="text-decoration-none">
+                  <Link className="text-decoration-none" to="/post">
                     Read more
-                  </Card.Link>
+                  </Link>
                   <FontAwesomeIcon
                     className="px-2 cursor-pointer"
                     icon={faArrowRight}
@@ -97,19 +112,20 @@ const Recent = () => {
           <div className="card bg-danger border-0 mb-5">
             <div className="row g-0">
               <div className="col-md-4">
-                <img src={blog2} className="img-fluid" alt="blog1" />
+                <img src={five} className="img-fluid" alt="blogpost1" />
               </div>
               <div className="col-md-8">
                 <div className="card-body">
                   <small className="card-title text-muted">
-                    Marek Kostolansky/20 Jan 2024
+                    Marek Kostolansky/01 Mar 2023
                   </small>
                   <p className="card-text text-primary fw-bold">
-                    Education is not solely about academics
+                    From Screen Time to Green Time: Balancing Technology and
+                    Nature in Kids' Learning
                   </p>
-                  <Card.Link className="text-decoration-none">
+                  <Link className="text-decoration-none" to="/post">
                     Read more
-                  </Card.Link>
+                  </Link>
                   <FontAwesomeIcon className="px-2" icon={faArrowRight} />
                 </div>
               </div>

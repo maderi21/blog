@@ -80,7 +80,7 @@ const Settings = () => {
                     />
                   </div>
                   <div className="text-center">
-                    <button type="submit" className="btn btn-outline-dark">
+                    <button type="submit" className="btn btn-info">
                       Update
                     </button>
                   </div>

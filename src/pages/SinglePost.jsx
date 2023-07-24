@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 const SinglePost = () => {
   return (
     <>
-      <div className="container mt-5">
+      <div className="container mt-5 pt-5">
         <img src={blog1} className="post rounded img-fluid" />
         <h2 className="my-3 bg-danger">
           Education is not solely about academics

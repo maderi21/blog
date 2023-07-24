@@ -11,7 +11,7 @@ const Join = () => {
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title" id="exampleModalLabel">
-              Register
+              Get Fresh News!
             </h5>
             <button
               type="button"
@@ -24,7 +24,7 @@ const Join = () => {
             <form>
               <div className="mb-3">
                 <label htmlFor="exampleInput" className="form-label">
-                  Username
+                  Name
                 </label>
                 <input type="text" className="form-control" id="exampleInput" />
               </div>
