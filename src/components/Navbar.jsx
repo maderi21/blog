@@ -37,16 +37,43 @@ const Navbar = () => {
                   Write
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="/blog">
+                  Blog
+                </Link>
+              </li>
             </ul>
-            <div>
-              <img
-                className="rounded-circle mx-3"
-                src={login}
-                alt="login"
-                width="50"
-                height="50"
-              />
-            </div>
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                {user ? (
+                  <img
+                    className="rounded-circle mx-3"
+                    src={login}
+                    alt="login"
+                    width="50"
+                    height="50"
+                  />
+                ) : (
+                  <>
+                    <Link
+                      className="nav-item text-white mx-2"
+                      to="/login"
+                      style={{ textDecoration: "none" }}
+                    >
+                      Login
+                    </Link>
+
+                    <Link
+                      className="nav-item text-white"
+                      to="/register"
+                      style={{ textDecoration: "none" }}
+                    >
+                      Register
+                    </Link>
+                  </>
+                )}
+              </li>
+            </ul>
             <ul className="navbar-nav">
               <li className=" btn btn-none text-white mx-1">
                 {user && "Logout"}

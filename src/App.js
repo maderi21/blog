@@ -16,7 +16,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 
 function App() {
-  const user = false;
+  const user = true;
   return (
     <>
       <div className="bg-secondary">
@@ -25,6 +25,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/write" element={user ? <Write /> : <Register />} />
           <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/login" element={user ? <Home /> : <Login />} />
           <Route
             path="/settings"
