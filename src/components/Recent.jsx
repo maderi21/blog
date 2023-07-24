@@ -15,7 +15,7 @@ const Recent = () => {
         <Col sm={7} className="px-5">
           <p className="text-primary fw-bold mt-5">Recent blog posts</p>
           <Card className="border-0">
-            <Card.Img src={one} className="img-fluid" />
+            <Card.Img src={one} className="img-fluid border-0" />
             <Card.Body className="bg-danger">
               <Card.Text className="">Marek Kostolansky/20 Jan 2023</Card.Text>
               <Card.Title className="text-primary fw-bold">

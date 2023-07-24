@@ -50,11 +50,6 @@ const Text = () => {
             </Row>
           </Col>
         </Row>
-        <Row>
-          <Col className="px-0 bg-secondary">
-            <img src={break2} className="img-fluid bg-danger" />
-          </Col>
-        </Row>
       </Container>
     </>
   );

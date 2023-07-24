@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Col, Row, Button, Image } from "react-bootstrap";
 import styles from "../styles.css";
 import headerimg from "../images/headerimg.png";
-import break1 from "../images/break.png";
 
 const Header = () => {
   return (
@@ -30,11 +29,6 @@ const Header = () => {
         </Col>
         <Col sm={6}>
           <Image src={headerimg} className="container pt-5" />
-        </Col>
-      </Row>
-      <Row>
-        <Col className="px-0 bg-danger">
-          <img src={break1} className="img-fluid mt-0 bg-secondary" />
         </Col>
       </Row>
     </Container>
